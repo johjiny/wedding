@@ -10158,3 +10158,17 @@ body {
             font-size: 14px;
             margin-right: 5px;
         }
+
+.info_detail {
+    position: absolute;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url(../images/toggle_icon.png) no-repeat;
+    background-position: center 0;
+    text-indent: -9999999px;
+    right: 50%;
+    transform: translateX(50%);
+    background-size: 100%;
+}
