@@ -10172,3 +10172,5 @@ body {
     transform: translateX(50%);
     background-size: 100%;
 }
+
+li {list-style: none;}
