@@ -26,12 +26,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
     <script type="text/javascript">
         
+        $(document).ready(function (e) {
             $('.list_con').slideDown();
             $('.info_detail').on('click', function () {
             $(this).parent('.list_wrap').toggleClass('on');
             $('.list_con').slideToggle();
         });
-        
+        }
+            
         function sendMail() {
 
             (function () {
